@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+<head>
+          <link rel="stylesheet" type="text/css" href="main.css">
+          <script>
+          function myFunction(){
+              var n = document.getElementById("name").value;
+              console.log("name = " + n);
+              var part = document.getElementById("add").value;
+              console.log("add = " + part);
+		alert("Thank you " + n + "! You're all set! - Dustin & Tori ");
+		var mail = "mailto:turkwatkins@gmail.com"+"&subject=" + escape(n " address") +  "&body=" + escape(part).value;
+          }
+          </script>
+</head>
+<body>
+    <nav>
+      <a href="#">HOME</a>
+	     <a href="#">WEDDING</a>
+	      <a href="#">LUNCHEON</a>
+	       <a href="#" >RECEPTION</a>
+       </nav>
+
+        <div class = "sect picOne">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		   <h1>Dustin and Tori</h1>
+        </div>
+        <div class = "subSection">
+		<br>
+                <h2>The Wedding</h2>
+                 <p id = "event1">Date: November 17, 2017</p>
+                  <p id = "event1">Time: 10:30 am</p>
+                   <p id = "event1">Place: Oquirrh Mountain Temple</p>
+                    <p id = "event1">Address: 11022 4000 West South Jordan, UT 84095</p>
+        </div>
+        <div class = "sect picTwo"></div>
+        <div class = "subSection">
+        <br>
+	 <h2>The Luncheon</h2>
+              <p id = "event2">Date: November 17, 2017</p>
+                <p id = "event2">Time 1:30 pm</p>
+                  <p id = "event2">Place: Noah's Event Venue</p>
+                    <p id = "event2">Address: 11000 South, South Jordan, UT 84095</p>
+        </div>
+        <div class = "sect picThree"></div>
+        <div class  = "subSection">
+        <br>    
+	     <h2>The Reception</h2>
+              <p id = "event3">Date: November 17, 2017</p>
+               <p id = "event3">Time: 7:00 - 9:00</p>
+                <p id = "event3">Place: Crumb Brothers Artisan Bread</p>
+                  <p id = "event3">Address: South 300 West, Logan, UT 84321</p>
+        </div>
+	<div class = "sect picFour"></div>
+        <div class = "enterInfo">
+            <h2>Come celebrate with us!</h2>
+             <h3> Your Name: </h3> <input type = "text" id = "name">
+                <br>
+             <h3> Your Address:</h3> <input type = "text" id = "add">
+                <br>
+              <button type = "button" onclick="myFunction()">Submit</button>
+        </div>
+<body>
+</html>
+
+
